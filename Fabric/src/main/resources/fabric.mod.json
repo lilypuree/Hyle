@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "hyle",
+  "version": "${version}",
+  "name": "Hyle",
+  "description": "A versatile underground stone replacer\n",
+  "authors": [
+    "lilypuree"
+  ],
+  "contact": {
+  },
+  "license": "LGPLv3",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "lilypuree.hyle.HyleFabric"
+    ],
+    "modmenu": [
+      "lilypuree.hyle.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "hyle.mixins.json",
+      "environment": "*"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
+  

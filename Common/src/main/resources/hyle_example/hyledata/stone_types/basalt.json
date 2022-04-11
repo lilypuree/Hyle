@@ -1,0 +1,15 @@
+{
+  "base": "minecraft:basalt",
+  "dirt": "minecraft:basalt",
+  "grass": "minecraft:basalt",
+  "ores": {
+    "minecraft:iron_ore": "minecraft:basalt",
+    "minecraft:coal_ore": "minecraft:basalt",
+    "minecraft:copper_ore": "minecraft:basalt",
+    "minecraft:gold_ore": "minecraft:basalt",
+    "minecraft:lapis_ore": "minecraft:basalt",
+    "minecraft:redstone_ore": "minecraft:basalt",
+    "minecraft:diamond_ore": "minecraft:basalt",
+    "minecraft:emerald_ore": "minecraft:basalt"
+  }
+}

@@ -1,0 +1,28 @@
+modLoader="javafml" #mandatory
+loaderVersion="[38,)"
+license="LGPLv3"
+
+[[mods]] #mandatory
+modId="hyle" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Hyle" #mandatory
+logoFile="logo.png" #optional
+
+credits="Jared & Darkhax for Multiloader" #optional
+authors="lilypuree" #optional
+description='''
+A versatile underground stone replacer library
+'''
+
+[[dependencies.decapitation]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[38,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.decapitation]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,)"
+    ordering="NONE"
+    side="BOTH"
